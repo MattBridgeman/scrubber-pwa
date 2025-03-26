@@ -1,0 +1,12 @@
+{
+  "name": "scrubber-pwa",
+  "version": "1.0.0",
+  "description": "A PWA for frame-by-frame video scrubbing",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server . -p 8080 -c-1"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

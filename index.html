@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Scrubber</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Video Scrubber</h1>
+        <div class="upload-container">
+            <input type="file" id="videoInput" accept="video/*">
+            <label for="videoInput">Choose a video file</label>
+        </div>
+        <div class="video-container">
+            <video id="videoPlayer" controls>
+                Your browser does not support the video element.
+            </video>
+            <div class="controls">
+                <button id="prevFrame">◀ Previous Frame</button>
+                <span id="frameInfo">Frame: 0 / 0</span>
+                <button id="nextFrame">Next Frame ▶</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
